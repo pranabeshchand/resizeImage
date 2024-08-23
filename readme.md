@@ -8,3 +8,8 @@ pip install python-multipart
 pip install Image
 pip install opencv-python
 pip install uuid
+
+
+Start server 
+`````````````````
+uvicorn main:app --reload
